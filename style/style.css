@@ -1,2 +1,29 @@
+body{
+    background-color:lightslategray;
+    padding: 200px;
+    padding-left: 200px;
+    text-align: center;
+    
 
-  
+    
+}
+button{
+    height: 50px;
+    width: 40px ;
+   outline-color: blueviolet;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   box-shadow: inset;
+   font-size: large;
+}
+input {
+    height: 40px;
+    width: 220px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
