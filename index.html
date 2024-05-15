@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
     <div class="calculator">
+      <label for="screen"></label><br>
+      <input type="text"    placeholder="0" class="m1" readonly data-entry><br>
+
       <div class="screen"></div>
+      
       <div class="btn">
       <button>(</button>
       <button>)</button>
@@ -21,21 +25,21 @@
       <button>Del</button>
       <button>°</button>
       <br />
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
+      <button onclick="display('7')">7</button>
+      <button onclick="display('8')">8</button>
+      <button onclick="display('9')">9</button>
       <button>-</button>
       <button>x²</button>
       <br />
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
+      <button onclick="display('4')">4</button>
+      <button onclick="display('5')">5</button>
+      <button onclick="display('6')">6</button>
       <button>+</button>
       <button><</button>
       <br />
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
+      <button onclick="display('1')">1</button>
+      <button onclick="display('2')">2</button>
+      <button onclick="display('3')">3</button>
       <button>%</button>
       <button>></button>
       <br />
@@ -46,5 +50,11 @@
       <button>=</button>
    </div>
     </div>
+
+<script src="./script/script.js">
+
+
+
+</script>
   </body>
 </html>
