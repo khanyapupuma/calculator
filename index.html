@@ -7,54 +7,46 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
     <div class="calculator">
-      <label for="screen"></label><br>
-      <input type="text"    placeholder="0" class="m1" readonly data-entry><br>
-
-      <div class="screen"></div>
+     
+      <div class="screen"> <label for="screen"></label><br>
+      <input type="text"   name="display" placeholder="0" class="m1" readonly data-entry id="screen"><br>
+      </div>
       
       <div class="btn">
-      <button>(</button>
-      <button>)</button>
-      <button>[</button>
-      <button>]</button>
-      <button>√</button>
+      
       <br />
-      <button>C</button>
-      <button>÷</button>
-      <button>X</button>
+      <button type="button" clear>AC</button>
+      <button onclick="display('/')">÷</button>
+      <button onclick="display('*')">x</button>
       <button>Del</button>
-      <button>°</button>
+      
       <br />
       <button onclick="display('7')">7</button>
       <button onclick="display('8')">8</button>
       <button onclick="display('9')">9</button>
-      <button>-</button>
-      <button>x²</button>
+      <button onclick="display('-')">−</button>
+      
       <br />
       <button onclick="display('4')">4</button>
       <button onclick="display('5')">5</button>
       <button onclick="display('6')">6</button>
-      <button>+</button>
-      <button><</button>
+      <button onclick="display('+')">+</button>
+      
       <br />
       <button onclick="display('1')">1</button>
       <button onclick="display('2')">2</button>
       <button onclick="display('3')">3</button>
-      <button>%</button>
-      <button>></button>
+      <button onclick="display('*0.01')">%</button>
+      
       <br />
-      <button>↻</button>
-      <button>i</button>
-      <button>.</button>
-      <button>Ans</button>
-      <button>=</button>
+      <button onclick="display('1.14159265359')">pi</button>
+      <button onclick="display('0')">0</button>
+      <button onclick="display('.')" >.</button>
+      
+      <button type="button" equals>=</button>
    </div>
     </div>
 
-<script src="./script/script.js">
-
-
-
-</script>
+<script src="./script/script.js"></script>
   </body>
 </html>
